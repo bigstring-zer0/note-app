@@ -1,0 +1,66 @@
+.note_container {
+    height: 250px;
+    width: 270px;
+    font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
+    border: solid transparent;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 6px 5px rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+
+    transition: all 0.3s ease;
+}
+
+.note_container:hover {
+    background-color: #f8f8f8;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25), 0 8px 10px rgba(0, 0, 0, 0.22);
+    transition: all 0.3s ease;
+}
+.updatedAt_container {
+    color: #818080;
+    position: relative;
+    right: 3%;
+    padding-top: 10px;
+}
+.button_group {
+    position: relative;
+
+    left: 8%;
+    display: flex;
+}
+
+.content_container {
+    padding-left: 15px;
+    padding-right: 10px;
+    height: 125px;
+    overflow: hidden;
+    word-break: normal;
+}
+.label_container {
+    padding-left: 15px;
+    padding-right: 10px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.pin_container {
+    position: relative;
+    top: 3%;
+    left: 83%;
+    width: 10px;
+}
+
+.title_container {
+    display: inline;
+    position: relative;
+    font-weight: bolder;
+    top: -8%;
+    left: 8%;
+}
+
+.label_item {
+    padding: 2px;
+    background-color: rgb(211, 211, 211, 0.5);
+
+    margin-right: 6px;
+    border-radius: 5px;
+}

@@ -1,0 +1,41 @@
+.title_container {
+    display: inline;
+    position: relative;
+    font-weight: bolder;
+    top: 20px;
+    left: 20px;
+}
+
+.content_container {
+    position: relative;
+    top: 30px;
+
+    padding-left: 25px;
+    padding-right: 10px;
+    height: 125px;
+    overflow: hidden;
+    word-break: normal;
+}
+.button_group {
+    position: relative;
+    top: 35px;
+    left: 40px;
+    display: flex;
+}
+
+.label_container {
+    position: relative;
+    padding-left: 25px;
+    padding-right: 10px;
+    top: 40px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.updatedAt_container {
+    color: #818080;
+    position: relative;
+    right: 3%;
+    padding-top: 10px;
+    padding-left: 0px;
+}
