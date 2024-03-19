@@ -1,0 +1,22 @@
+.content_box {
+    text-align: center;
+}
+
+.description {
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 1.4rem;
+}
+
+.nothingIcon {
+    margin-top: 100px;
+    font-size: 350px;
+    color: rgb(186, 186, 186, 0.5);
+}
+
+.nothingIconMui {
+    margin-top: 100px;
+    width: 350px;
+    height: 350px;
+    /* font-size: 600px; */
+    color: rgb(186, 186, 186, 0.5);
+}
