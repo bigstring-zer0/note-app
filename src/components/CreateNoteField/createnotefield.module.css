@@ -1,0 +1,59 @@
+.editor_container {
+    margin-left: 180px;
+    margin-right: 150px;
+    text-align: left;
+    display: "flex";
+    justify-content: right;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: white;
+    border: solid transparent;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 6px 5px rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+
+    cursor: text;
+    transition: all 0.3s ease;
+}
+
+.editor_button_container {
+    text-align: right;
+}
+
+.editor_option_container {
+    text-align: right;
+}
+
+.editor_options {
+    margin-left: 15px;
+}
+
+.editor_save_button {
+    margin-top: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+}
+
+.editor_save_button:hover {
+    color: white;
+    background-color: gray;
+    font-weight: bold;
+}
+
+.editor_prior_dropdown {
+    width: 225px;
+    text-align: left;
+}
+
+.editor_labels_container {
+    padding-top: 10px;
+}
+
+.editor_labels_item {
+    font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
+    border: 0.5px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+}
