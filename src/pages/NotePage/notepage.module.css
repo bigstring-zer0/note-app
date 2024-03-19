@@ -1,0 +1,21 @@
+.note_space {
+    margin-left: 100px;
+}
+
+.note_space h2 {
+    margin-bottom: 0;
+    color: rgb(170, 170, 170);
+    font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.list_space {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+}
+
+.list_style {
+    margin-right: 30px;
+    margin-top: 30px;
+}
