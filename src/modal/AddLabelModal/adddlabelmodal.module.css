@@ -1,0 +1,25 @@
+.list_value {
+    padding: 0;
+    list-style: none;
+}
+
+.li_value {
+    display: flex;
+    justify-content: space-between;
+}
+
+.error_message {
+    width: 260px;
+    color: red;
+    font-size: 15px;
+}
+
+.label_container {
+    display: flex;
+}
+
+.label_name {
+    padding-top: 10px;
+    width: 200px;
+    overflow: hidden;
+}
