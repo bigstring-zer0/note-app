@@ -1,0 +1,31 @@
+.create_note_button {
+    margin-top: 30px;
+    background-color: white;
+    border: solid transparent;
+    /* box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.07); */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 6px 5px rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    width: 55%;
+    height: 50px;
+    cursor: text;
+    transition: all 0.3s ease;
+}
+
+.create_note_button:hover {
+    background-color: #f8f8f8;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25), 0 8px 10px rgba(0, 0, 0, 0.22);
+}
+
+.create_note_button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.create_note_button_text {
+    text-align: left;
+    padding-left: 20px;
+    font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 350;
+    font-size: 20px;
+}
